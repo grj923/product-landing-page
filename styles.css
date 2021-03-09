@@ -1,3 +1,43 @@
 body {
   background-color: aqua;
 }
+#top {
+  text-align: center;
+}
+
+.info-area {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+.info-area > div {
+  background-color: darkgray;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+#video {
+  text-align: center;
+  background-color: darkmagenta;
+  margin: auto;
+  width: 40%;
+  height: 200px;
+}
+.order-info {
+  display: flex;
+  background-color: bisque;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+.order-info > div {
+  background-color: darkgray;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
