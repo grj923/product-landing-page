@@ -1,43 +1,90 @@
 body {
-  background-color: aqua;
+  background-color: #bfd7ed;
 }
 #top {
   text-align: center;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003b73;
+  margin-bottom: 20px;
+}
+li {
+  float: left;
+  border-right: 1px solid white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #bfd7ed;
+}
+
+#form {
+  background-color: #bfd7ed;
+  height: 50px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+#email {
+  margin-top: 5px;
+}
+
+#submit {
+  margin-bottom: 5px;
+  background-color: yellow;
+  width: 150px;
+}
 
 .info-area {
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
-  background-color: bisque;
+  background-color: #60a3d9;
   text-align: center;
   margin: auto;
   width: 60%;
+  height: 400px;
 }
 
 .info-area > div {
-  background-color: darkgray;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
 }
 #video {
   text-align: center;
-  background-color: darkmagenta;
+  background-color: #003b73;
   margin: auto;
   width: 40%;
-  height: 200px;
+  height: 300px;
 }
+
 .order-info {
   display: flex;
-  background-color: bisque;
+  background-color: #60a3d9;
   justify-content: space-around;
   text-align: center;
   margin: auto;
   width: 60%;
+  height: 500px;
 }
 .order-info > div {
-  background-color: darkgray;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+}
+footer {
+  color: #003b73;
 }
