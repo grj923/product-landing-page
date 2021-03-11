@@ -39,51 +39,55 @@ li a:hover {
 
 #email {
   margin-top: 5px;
+  width: 300px;
+  text-align: center;
 }
 
 #submit {
   margin-bottom: 5px;
   background-color: yellow;
-  width: 150px;
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
 }
 
 .info-area {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  background-color: #60a3d9;
   text-align: center;
   margin: auto;
   width: 60%;
-  height: 400px;
+  overflow: auto;
 }
 
 .info-area > div {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  text-align: left;
 }
 #video {
   text-align: center;
-  background-color: #003b73;
   margin: auto;
+  /* overflow: auto;
   width: 40%;
-  height: 300px;
+  height: 300px; */
 }
 
 .order-info {
   display: flex;
-  background-color: #60a3d9;
   justify-content: space-around;
   text-align: center;
   margin: auto;
   width: 60%;
-  height: 500px;
+  overflow: auto;
 }
 .order-info > div {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  text-align: left;
 }
 footer {
   color: #003b73;
