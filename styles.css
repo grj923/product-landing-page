@@ -4,6 +4,13 @@ body {
 #top {
   text-align: center;
 }
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: solid 40px #003b73;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,6 +34,11 @@ li a {
 
 li a:hover {
   background-color: #bfd7ed;
+}
+
+#header-img {
+  height: 100px;
+  width: 250px;
 }
 
 #form {
