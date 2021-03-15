@@ -80,11 +80,10 @@ li a:hover {
   text-align: left;
 }
 #video {
+  width: 100%;
+  height: auto;
   text-align: center;
   margin: auto;
-  /* overflow: auto;
-  width: 40%;
-  height: 300px; */
 }
 
 .order-info {
@@ -103,4 +102,26 @@ li a:hover {
 }
 footer {
   color: #003b73;
+}
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #logo {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  #video {
+    width: 400px;
+  }
+}
+
+@media (max-width: 200px) {
+  #video {
+    display: none;
+  }
 }
