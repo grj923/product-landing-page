@@ -42,7 +42,6 @@ li a:hover {
 }
 
 #form {
-  background-color: #bfd7ed;
   height: 50px;
   width: 60%;
   text-align: center;
@@ -74,16 +73,35 @@ li a:hover {
 }
 
 .info-area > div {
+  background-color: #60a3d9;
+  display: block;
   margin: 10px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 1.5rem;
   text-align: left;
+  border: 5px solid #003b73;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.reasonimages {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
 }
 #video {
-  width: 100%;
-  height: auto;
+  display: block;
   text-align: center;
   margin: auto;
+}
+
+iframe {
+  width: 500px;
+  height: 400px;
 }
 
 .order-info {
@@ -97,7 +115,7 @@ li a:hover {
 .order-info > div {
   margin: 10px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 1rem;
   text-align: left;
 }
 footer {
@@ -114,14 +132,9 @@ footer {
     display: none;
   }
 }
-@media (max-width: 900px) {
-  #video {
-    width: 400px;
-  }
-}
-
-@media (max-width: 200px) {
-  #video {
-    display: none;
+@media screen and (max-width: 500px) {
+  iframe {
+    width: 250px;
+    height: 250px;
   }
 }
