@@ -93,10 +93,14 @@ h3 {
   float: left;
   margin-right: 10px;
 }
-#video {
+#videoDiv {
   display: block;
+  width: 510px;
+  height: 410px;
+  background-color: #003b73;
   text-align: center;
   margin: auto;
+  border: 3px solid #003b73;
 }
 
 iframe {
@@ -113,10 +117,18 @@ iframe {
   overflow: auto;
 }
 .order-info > div {
+  background-color: #60a3d9;
   margin: 10px;
   padding: 20px;
   font-size: 1rem;
-  text-align: left;
+  text-align: center;
+  border: 3px solid #003b73;
+}
+.catioBlueprint {
+  position: static;
+  margin-left: 20px;
+  height: 200px;
+  width: 200px;
 }
 footer {
   color: #003b73;
