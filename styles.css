@@ -1,14 +1,27 @@
 body {
   background-color: #bfd7ed;
 }
-#top {
-  text-align: center;
+.main {
+  padding: 16px;
+  margin-top: 100px;
+  height: 1500px;
 }
+
 #header {
   display: flex;
+  position: fixed;
+  background-color: #0074b7;
+  width: 100%;
   justify-content: space-between;
-  margin-bottom: 20px;
-  border-bottom: solid 40px #003b73;
+  align-content: center;
+  top: 0;
+  height: 20%;
+  border: 3px solid #003b73;
+}
+
+#nav-bar {
+  text-align: center;
+  margin-top: 50px;
 }
 
 ul {
@@ -17,7 +30,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #003b73;
-  margin-bottom: 20px;
+  margin-right: 20px;
 }
 li {
   float: left;
@@ -37,8 +50,20 @@ li a:hover {
 }
 
 #header-img {
+  margin-top: 20px;
   height: 100px;
   width: 250px;
+}
+#formDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+#title {
+  text-align: center;
 }
 
 #form {
@@ -62,6 +87,20 @@ li a:hover {
   margin-top: 10px;
 }
 
+@media (max-width: 500px) {
+  #submit {
+    width: 100px;
+  }
+}
+@media (max-width: 500px) {
+  #email {
+    width: 100px;
+  }
+}
+#form input[type="submit"]:hover {
+  background-color: lightgoldenrodyellow;
+}
+
 .info-area {
   display: flex;
   justify-content: space-around;
@@ -69,7 +108,6 @@ li a:hover {
   text-align: center;
   margin: auto;
   width: 60%;
-  overflow: auto;
 }
 
 .info-area > div {
@@ -93,6 +131,13 @@ h3 {
   float: left;
   margin-right: 10px;
 }
+@media (max-width: 500px) {
+  .reasonimages {
+    width: 150px;
+    text-align: center;
+  }
+}
+
 #videoDiv {
   display: block;
   width: 510px;
@@ -112,9 +157,9 @@ iframe {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  flex-wrap: wrap;
   margin: auto;
   width: 60%;
-  overflow: auto;
 }
 .order-info > div {
   background-color: #60a3d9;
@@ -123,6 +168,13 @@ iframe {
   font-size: 1rem;
   text-align: center;
   border: 3px solid #003b73;
+}
+button {
+  background-color: yellow;
+}
+
+button:hover {
+  background-color: lightgoldenrodyellow;
 }
 .catioBlueprint {
   position: static;
